@@ -1,10 +1,10 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/Users/Hugo/.flutter_sdk
-FLUTTER_APPLICATION_PATH=/Users/Hugo/Projects/FlutterProjects/cross_screens_animation
-FLUTTER_TARGET=/Users/Hugo/Projects/FlutterProjects/cross_screens_animation/lib/main.dart
+FLUTTER_ROOT=/Users/hugobock/Library/flutter
+FLUTTER_APPLICATION_PATH=/Users/hugobock/Projects/flutter_projects/cross_screens_animation
+FLUTTER_TARGET=/Users/hugobock/Projects/flutter_projects/cross_screens_animation/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
-FLUTTER_FRAMEWORK_DIR=/Users/Hugo/.flutter_sdk/bin/cache/artifacts/engine/ios
+FLUTTER_FRAMEWORK_DIR=/Users/hugobock/Library/flutter/bin/cache/artifacts/engine/ios
 FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_BUILD_NUMBER=1
 TRACK_WIDGET_CREATION=true
