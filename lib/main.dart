@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Container(
         decoration: new BoxDecoration(color: Color.fromRGBO(205, 205, 205, 1)),
         child: Container(
-          margin: EdgeInsets.only(top: 20),
+          // margin: EdgeInsets.only(top: 20),
           child: PageSwitcher(),
         ),
       ),

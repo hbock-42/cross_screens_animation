@@ -135,11 +135,13 @@ class _SingleProfileState extends State<SingleProfile> {
                 gradient: LinearGradient(
                   begin: Alignment.bottomLeft,
                   end: Alignment.topRight,
-                  stops: [0.2, 0.6, 0.8],
+                  stops: [0.2, 0.2, 0.8],
                   colors: [
                     Color.fromRGBO(204, 0, 102, 0.8),
-                    Color.fromRGBO(10, 0, 200, 0.8),
-                    Color.fromRGBO(100, 45, 102, 0.8),
+                    Color.fromRGBO(204, 0, 102, 0.8),
+                    Color.fromRGBO(133, 0, 67, 0.8),
+                    // Color.fromRGBO(100, 45, 102, 0.8),
+                    // Color.fromRGBO(247, 230, 34, 0.8),
                   ] 
                 )
               ),
@@ -182,7 +184,7 @@ class _SingleProfileState extends State<SingleProfile> {
       this.widget.onChanged(TransitionInfo(
           id,
           renderBox.localToGlobal(Offset.zero).dx,
-          renderBox.localToGlobal(Offset.zero).dy - 20,
+          renderBox.localToGlobal(Offset.zero).dy,
           renderBox.size,
           imageRenderBox.localToGlobal(Offset.zero).dx,
           imageRenderBox.localToGlobal(Offset.zero).dy,
